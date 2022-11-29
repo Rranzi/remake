@@ -2572,9 +2572,9 @@ break
 case 'ratejodoh':
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} text\n\nContoh : ${command} Jars dan Yan`)
-const ra = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
-const te = ra[Math.floor(Math.random() * ra.length)]
-haikal.sendMessage(from, { text: `Rate : ${q}\nJawaban : *${te}%*` }, { quoted: m })
+const ta = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
+const tu = ta[Math.floor(Math.random() * ta.length)]
+haikal.sendMessage(from, { text: `Rate : ${q}\nJawaban : *${tu}%*` }, { quoted: m })
 break
 //=================================================//
 case 'gantengcek':
